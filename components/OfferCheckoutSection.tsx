@@ -56,29 +56,26 @@ export default function OfferCheckoutSection() {
           <div className="p-6 sm:p-8 md:p-10">
             
             {/* Offer Item with Thumbnail Image */}
-            <div className="p-5 sm:p-6 rounded-2xl bg-[#FAF7F2] border border-[#E8DEC9] mb-8">
-              <div className="flex flex-col sm:flex-row items-start gap-5">
+            <div className="p-6 sm:p-8 rounded-2xl bg-[#FAF7F2] border border-[#E8DEC9] mb-8">
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
                 
-                {/* Product Thumbnail from user */}
-                <div className="relative w-full sm:w-32 md:w-36 aspect-[4/3] sm:aspect-square rounded-xl overflow-hidden border border-[#E0D2C0] shadow-sm shrink-0 bg-[#EFE4D6]">
+                {/* Product Cover Showcase - Highly Visible & Prominent */}
+                <div className="relative w-full max-w-[280px] sm:max-w-[320px] md:w-64 lg:w-72 aspect-square rounded-2xl overflow-hidden border-2 border-[#D8C2A8] shadow-lg shrink-0 bg-white group">
                   <Image
                     src="/images/offer_thumbnail.jpg"
-                    alt="Miniatura do Ebook 10 Bolos Caseiros Fáceis e Deliciosos"
+                    alt="Capa do Ebook 10 Bolos Caseiros Fáceis e Deliciosos"
                     fill
-                    sizes="(max-width: 640px) 100vw, 144px"
-                    className="object-cover transition-transform duration-300 hover:scale-105"
+                    sizes="(max-width: 768px) 320px, 288px"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
                     priority
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute bottom-1.5 left-1.5 right-1.5 bg-[#301B14]/85 backdrop-blur-xs text-[10px] font-bold text-white text-center py-0.5 px-1.5 rounded">
-                    Ebook Oficial
-                  </div>
                 </div>
 
                 {/* Offer Details & Value Stack */}
-                <div className="flex-1">
-                  <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                    <span className="text-xs font-bold text-[#C2652B] uppercase tracking-wide">
+                <div className="flex-1 w-full text-left">
+                  <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <span className="text-xs sm:text-sm font-bold text-[#C2652B] uppercase tracking-wide">
                       Acesso Vitalício & Completo
                     </span>
                     <span className="text-xs font-bold text-[#15803D] bg-[#DCFCE7] border border-[#BBF7D0] px-3 py-1 rounded-full">
@@ -86,36 +83,36 @@ export default function OfferCheckoutSection() {
                     </span>
                   </div>
 
-                  <h4 className="text-base sm:text-lg font-bold text-[#301B14] mb-3">
+                  <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-[#301B14] mb-3 leading-snug">
                     Ebook Oficial 10 Bolos Caseiros Fáceis e Deliciosos
                   </h4>
 
                   {/* Bullet Checklist for High Persuasion */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-3 border-t border-[#E8DEC9]/80 text-xs text-[#44332D]">
-                    <div className="flex items-center gap-2">
-                      <div className="w-4 h-4 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
-                        <Check className="w-2.5 h-2.5 stroke-[3]" />
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3 border-t border-[#E8DEC9] text-xs sm:text-sm text-[#44332D]">
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-5 h-5 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 stroke-[3]" />
                       </div>
                       <span className="font-medium">10 receitas testadas que dão certo</span>
                     </div>
 
-                    <div className="flex items-center gap-2">
-                      <div className="w-4 h-4 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
-                        <Check className="w-2.5 h-2.5 stroke-[3]" />
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-5 h-5 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 stroke-[3]" />
                       </div>
                       <span className="font-medium">Medidas em xícaras e colheres</span>
                     </div>
 
-                    <div className="flex items-center gap-2">
-                      <div className="w-4 h-4 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
-                        <Check className="w-2.5 h-2.5 stroke-[3]" />
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-5 h-5 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 stroke-[3]" />
                       </div>
                       <span className="font-medium">Dicas de temperatura e tempo de forno</span>
                     </div>
 
-                    <div className="flex items-center gap-2">
-                      <div className="w-4 h-4 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
-                        <Check className="w-2.5 h-2.5 stroke-[3]" />
+                    <div className="flex items-center gap-2.5">
+                      <div className="w-5 h-5 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 stroke-[3]" />
                       </div>
                       <span className="font-medium">Acesso no celular a qualquer momento</span>
                     </div>

@@ -11,7 +11,7 @@ export default function HeroSection() {
   const [isMuted, setIsMuted] = useState(false);
   const [progress, setProgress] = useState(0);
   const [currentTimeStr, setCurrentTimeStr] = useState('00:00');
-  const [durationStr, setDurationStr] = useState('00:40');
+  const [durationStr, setDurationStr] = useState('00:20');
 
   const togglePlay = () => {
     if (!videoRef.current) return;
@@ -119,7 +119,7 @@ export default function HeroSection() {
                 onTimeUpdate={() => {
                   if (!videoRef.current) return;
                   const cur = videoRef.current.currentTime;
-                  const dur = videoRef.current.duration || 40.4;
+                  const dur = videoRef.current.duration || 20.5;
                   setProgress((cur / dur) * 100);
                   const mins = Math.floor(cur / 60);
                   const secs = Math.floor(cur % 60);
@@ -204,7 +204,7 @@ export default function HeroSection() {
                     const rect = e.currentTarget.getBoundingClientRect();
                     const clickX = e.clientX - rect.left;
                     const pct = Math.max(0, Math.min(1, clickX / rect.width));
-                    const dur = videoRef.current.duration || 40.4;
+                    const dur = videoRef.current.duration || 20.5;
                     videoRef.current.currentTime = pct * dur;
                   }}
                 >
