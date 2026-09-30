@@ -100,7 +100,7 @@ export default function VslSection({ videoEmbedUrl }: VslSectionProps) {
                   {/* Bottom Text inside Player */}
                   <div className="relative z-10 text-center">
                     <p className="text-xs text-white/80 font-medium bg-black/50 backdrop-blur-sm py-2 px-3 rounded-lg border border-white/10">
-                      Aprenda os segredos dos 10 bolos caseiros mais pedidos
+                      Aprenda os segredos dos bolos caseiros mais pedidos
                     </p>
                   </div>
                 </div>

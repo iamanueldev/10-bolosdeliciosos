@@ -37,7 +37,7 @@ export default function LegalModal({ type, onClose }: LegalModalProps) {
               </h3>
               <div className="text-sm text-[#594740] space-y-3 leading-relaxed">
                 <p>
-                  Bem-vindo à <strong>Cozinha Livre</strong>. Ao adquirir o ebook digital “10 Bolos Caseiros Fáceis e Deliciosos”, você concorda com os presentes termos.
+                  Bem-vindo à <strong>Cozinha Livre</strong>. Ao adquirir o ebook digital “Bolos Caseiros para Vender”, você concorda com os presentes termos.
                 </p>
                 <p>
                   1. <strong>Uso Pessoal e Comercial das Receitas:</strong> O material educativo é licenciado para seu uso pessoal ou para confecção de bolos em seu próprio negócio culinário. É estritamente proibida a revenda, cópia, distribuição pública ou rateio não autorizado do ebook digital.

@@ -41,8 +41,11 @@ export default function OfferCheckoutSection() {
                 Pacote Digital Oficial
               </span>
               <h3 className="text-lg sm:text-xl font-bold tracking-tight">
-                10 BOLOS CASEIROS FÁCEIS E DELICIOSOS
+                BOLOS CASEIROS PARA VENDER
               </h3>
+              <p className="text-xs text-[#E6C280]/90 mt-0.5">
+                20 receitas fáceis, económicas e lucrativas para começar em casa
+              </p>
             </div>
             <div className="text-left sm:text-right">
               <span className="text-xs text-[#DEC8BD] line-through block">De 6.000 Kz</span>
@@ -63,7 +66,7 @@ export default function OfferCheckoutSection() {
                 <div className="relative w-full max-w-[280px] sm:max-w-[320px] md:w-64 lg:w-72 aspect-square rounded-2xl overflow-hidden border-2 border-[#D8C2A8] shadow-lg shrink-0 bg-white group">
                   <Image
                     src="/images/offer_thumbnail.jpg"
-                    alt="Capa do Ebook 10 Bolos Caseiros Fáceis e Deliciosos"
+                    alt="Capa do Ebook Bolos Caseiros para Vender"
                     fill
                     sizes="(max-width: 768px) 320px, 288px"
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -83,9 +86,12 @@ export default function OfferCheckoutSection() {
                     </span>
                   </div>
 
-                  <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-[#301B14] mb-3 leading-snug">
-                    Ebook Oficial 10 Bolos Caseiros Fáceis e Deliciosos
+                  <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-[#301B14] mb-1 leading-snug">
+                    Ebook Oficial Bolos Caseiros para Vender
                   </h4>
+                  <p className="text-xs sm:text-sm text-[#7A675F] mb-3">
+                    20 receitas fáceis, económicas e lucrativas para começar em casa
+                  </p>
 
                   {/* Bullet Checklist for High Persuasion */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3 border-t border-[#E8DEC9] text-xs sm:text-sm text-[#44332D]">
@@ -93,7 +99,7 @@ export default function OfferCheckoutSection() {
                       <div className="w-5 h-5 rounded-full bg-[#16A34A] text-white flex items-center justify-center shrink-0">
                         <Check className="w-3 h-3 stroke-[3]" />
                       </div>
-                      <span className="font-medium">10 receitas testadas que dão certo</span>
+                      <span className="font-medium">20 receitas testadas que dão certo</span>
                     </div>
 
                     <div className="flex items-center gap-2.5">

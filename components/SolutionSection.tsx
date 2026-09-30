@@ -25,7 +25,7 @@ export default function SolutionSection() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-[#F0E8DD]">
                 <Image
                   src="/images/ebook_mockup.jpg"
-                  alt="Ebook 10 Bolos Caseiros Fáceis e Deliciosos - Cozinha Livre"
+                  alt="Ebook Bolos Caseiros para Vender - Cozinha Livre"
                   fill
                   sizes="(max-width: 768px) 100vw, 540px"
                   className="object-cover"
@@ -64,11 +64,11 @@ export default function SolutionSection() {
             </p>
             
             <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-[#301B14] leading-tight mb-4" style={{ textWrap: 'balance' }}>
-              Conheça o 10 Bolos Caseiros Fáceis e Deliciosos
+              Conheça o Bolos Caseiros para Vender
             </h2>
 
             <p className="text-base sm:text-lg text-[#55433C] leading-relaxed mb-6">
-              Um ebook criado para quem quer preparar bolos saborosos sem precisar dominar técnicas complicadas de confeitaria.
+              20 receitas fáceis, económicas e lucrativas para começar em casa sem precisar dominar técnicas complicadas de confeitaria.
             </p>
 
             <div className="w-full bg-[#F4EFE6] border-l-4 border-[#C2652B] rounded-r-xl p-4 mb-6">

@@ -71,10 +71,10 @@ export default function WhatYouGetSection() {
             CONTEÚDO PRINCIPAL
           </span>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2">
-            10 BOLOS CASEIROS FÁCEIS E DELICIOSOS
+            BOLOS CASEIROS PARA VENDER
           </h3>
           <p className="text-sm sm:text-base text-[#E5D7CE] max-w-2xl">
-            Passo a passo descomplicado com medidas simples em xícaras e ingredientes acessíveis do seu dia a dia.
+            20 receitas fáceis, económicas e lucrativas para começar em casa.
           </p>
         </div>
 

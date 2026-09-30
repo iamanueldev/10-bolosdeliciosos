@@ -36,9 +36,14 @@ export default function FinalCtaSection() {
               <div className="w-5 h-5 rounded-full bg-[#C2652B] flex items-center justify-center shrink-0">
                 <Check className="w-3.5 h-3.5 text-white" />
               </div>
-              <span className="text-sm sm:text-base font-bold text-white">
-                10 BOLOS CASEIROS FÁCEIS E DELICIOSOS
-              </span>
+              <div>
+                <span className="text-sm sm:text-base font-bold text-white block">
+                  BOLOS CASEIROS PARA VENDER
+                </span>
+                <span className="text-xs text-[#E0D2C7] block mt-0.5">
+                  20 receitas fáceis, económicas e lucrativas para começar em casa
+                </span>
+              </div>
             </div>
             
             <div className="flex items-center justify-center py-0.5 text-xs text-[#E6C280] font-bold">

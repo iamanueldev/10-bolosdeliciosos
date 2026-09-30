@@ -10,11 +10,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Cozinha Livre | 10 Bolos Caseiros Fáceis e Deliciosos',
-  description: 'Aprenda a preparar bolos caseiros fáceis e deliciosos com receitas simples e práticas passo a passo.',
+  title: 'Cozinha Livre | Bolos Caseiros para Vender',
+  description: '20 receitas fáceis, económicas e lucrativas para começar em casa.',
   openGraph: {
-    title: 'Cozinha Livre | 10 Bolos Caseiros Fáceis e Deliciosos',
-    description: 'Aprenda a preparar bolos caseiros fáceis e deliciosos com receitas simples e práticas passo a passo.',
+    title: 'Cozinha Livre | Bolos Caseiros para Vender',
+    description: '20 receitas fáceis, económicas e lucrativas para começar em casa.',
     type: 'website',
     locale: 'pt_AO',
     images: [
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
         url: '/images/hero_cakes.jpg',
         width: 1200,
         height: 630,
-        alt: '10 Bolos Caseiros Fáceis e Deliciosos - Cozinha Livre',
+        alt: 'Bolos Caseiros para Vender - Cozinha Livre',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cozinha Livre | 10 Bolos Caseiros Fáceis e Deliciosos',
-    description: 'Aprenda a preparar bolos caseiros fáceis e deliciosos com receitas simples e práticas passo a passo.',
+    title: 'Cozinha Livre | Bolos Caseiros para Vender',
+    description: '20 receitas fáceis, económicas e lucrativas para começar em casa.',
     images: ['/images/hero_cakes.jpg'],
   },
 };

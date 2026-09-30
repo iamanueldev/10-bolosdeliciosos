@@ -36,7 +36,7 @@ export default function MobileStickyBar() {
           <div className="flex items-center justify-between gap-3">
             <div className="truncate">
               <span className="text-[11px] font-medium text-[#E6C280] block truncate">
-                10 Bolos Caseiros
+                Bolos Caseiros para Vender
               </span>
               <span className="text-sm font-bold text-white tracking-tight">
                 3.000 Kz

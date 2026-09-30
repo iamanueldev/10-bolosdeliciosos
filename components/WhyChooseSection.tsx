@@ -57,10 +57,10 @@ export default function WhyChooseSection() {
             Diferenciais Exclusivos
           </p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#301B14] leading-tight mb-4" style={{ textWrap: 'balance' }}>
-            Por que escolher o 10 Bolos Caseiros Fáceis e Deliciosos?
+            Por que escolher o Bolos Caseiros para Vender?
           </h2>
           <p className="text-base text-[#5E4C45] max-w-xl mx-auto">
-            Criado especialmente para quem busca praticidade, sabor inesquecível e a segurança de que o bolo vai crescer fofinho e macio.
+            20 receitas fáceis, económicas e lucrativas para começar em casa com segurança de que o bolo vai crescer fofinho e macio.
           </p>
         </div>
 
