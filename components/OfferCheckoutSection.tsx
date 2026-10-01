@@ -65,7 +65,7 @@ export default function OfferCheckoutSection() {
                 {/* Product Cover Showcase - Highly Visible & Prominent */}
                 <div className="relative w-full max-w-[280px] sm:max-w-[320px] md:w-64 lg:w-72 aspect-square rounded-2xl overflow-hidden border-2 border-[#D8C2A8] shadow-lg shrink-0 bg-white group">
                   <Image
-                    src="/images/offer_thumbnail.jpg"
+                    src="/images/capa_bolos_caseiros_para_vender.jpg"
                     alt="Capa do Ebook Bolos Caseiros para Vender"
                     fill
                     sizes="(max-width: 768px) 320px, 288px"
