@@ -19,11 +19,11 @@ const FAQS = [
   },
   {
     q: "Vou conseguir fazer mesmo sem experiência?",
-    a: "Sim. Todas as 10 receitas foram elaboradas em linguagem simples, com modo de preparo passo a passo e medidas práticas do cotidiano para que qualquer pessoa consiga acompanhar.",
+    a: "Sim. Todas as 20 receitas foram elaboradas em linguagem simples, com modo de preparo passo a passo e medidas práticas do cotidiano para que qualquer pessoa consiga acompanhar.",
   },
   {
     q: "Quanto custa?",
-    a: "O valor da oferta completa é 3.000 Kz, em pagamento único sem mensalidades.",
+    a: "O valor da oferta completa é 2.500 Kz, em pagamento único sem mensalidades.",
   },
 ];
 

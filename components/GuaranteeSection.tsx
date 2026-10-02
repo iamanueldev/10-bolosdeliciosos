@@ -63,7 +63,7 @@ export default function GuaranteeSection() {
             href={CHECKOUT_URL}
             className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl font-bold text-base text-white bg-[#301B14] hover:bg-[#C2652B] transition-colors shadow-md w-full sm:w-auto"
           >
-            <span>Acessar agora por 3.000 Kz</span>
+            <span>Acessar agora por 2.500 Kz</span>
             <ArrowRight className="w-4 h-4" />
           </a>
 

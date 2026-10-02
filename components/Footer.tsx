@@ -61,7 +61,7 @@ export default function Footer() {
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] sm:text-xs text-[#8A7972] text-center sm:text-left">
           <p>© {new Date().getFullYear()} Cozinha Livre Produções Digitais. Todos os direitos reservados.</p>
           <div className="text-xs text-[#806E66]">
-            Valor único: <strong className="text-[#301B14]">3.000 Kz</strong> (Sem mensalidades)
+            Valor único: <strong className="text-[#301B14]">2.500 Kz</strong> (Sem mensalidades)
           </div>
         </div>
 

@@ -226,7 +226,7 @@ export default function HeroSection() {
             </p>
           </motion.div>
 
-          {/* Big CTA Button with updated 3.000 Kz (Centered) */}
+          {/* Big CTA Button with updated 2.500 Kz (Centered) */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -239,7 +239,7 @@ export default function HeroSection() {
               whileTap={{ scale: 0.98 }}
               className="w-full sm:w-auto group inline-flex items-center justify-center gap-3 px-8 sm:px-10 py-4 sm:py-4.5 rounded-xl text-base sm:text-lg font-bold text-white bg-[#301B14] hover:bg-[#C2652B] active:bg-[#B34E15] transition-all shadow-lg shadow-[#301B14]/15 focus:outline-none focus-visible:ring-4 focus-visible:ring-[#C2652B]/30 text-center"
             >
-              <span>QUERO ACESSAR O EBOOK POR 3.000 Kz</span>
+              <span>QUERO ACESSAR O EBOOK POR 2.500 Kz</span>
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </motion.a>
           </motion.div>

@@ -99,7 +99,7 @@ export default function WhyChooseSection() {
             href={CHECKOUT_URL}
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl font-bold text-sm sm:text-base text-white bg-[#301B14] hover:bg-[#C2652B] transition-colors shadow-md"
           >
-            <span>Quero minhas receitas testadas por 3.000 Kz</span>
+            <span>Quero minhas receitas testadas por 2.500 Kz</span>
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

@@ -9,5 +9,5 @@ export const PRODUCT_INFO = {
   brandTagline: "Conteúdo digital para quem ama cozinhar.",
   productTitle: "Bolos Caseiros para Vender",
   productSubtitle: "20 receitas fáceis, económicas e lucrativas para começar em casa",
-  productPrice: "3.000 Kz",
+  productPrice: "2.500 Kz",
 };

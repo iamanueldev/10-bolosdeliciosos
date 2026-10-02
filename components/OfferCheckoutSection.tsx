@@ -24,7 +24,7 @@ export default function OfferCheckoutSection() {
             OFERTA ESPECIAL DE LANÇAMENTO
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#301B14] leading-tight mb-3" style={{ textWrap: 'balance' }}>
-            Tudo o que você precisa por apenas 3.000 Kz
+            Tudo o que você precisa por apenas 2.500 Kz
           </h2>
           <p className="text-sm sm:text-base text-[#614E47]">
             Acesso digital imediato com pagamento único. Sem mensalidades, sem taxas extras.
@@ -51,7 +51,7 @@ export default function OfferCheckoutSection() {
               <span className="text-xs text-[#DEC8BD] line-through block">De 6.000 Kz</span>
               <div className="flex items-center sm:justify-end gap-1.5">
                 <span className="text-xs text-[#E6C280] font-semibold">Por apenas</span>
-                <span className="text-xl sm:text-2xl font-bold text-[#E6C280]">3.000 Kz</span>
+                <span className="text-xl sm:text-2xl font-bold text-[#E6C280]">2.500 Kz</span>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function OfferCheckoutSection() {
 
               <div className="flex items-center justify-center gap-2">
                 <span className="text-4xl sm:text-6xl font-bold text-[#301B14] tracking-tight">
-                  3.000 Kz
+                  2.500 Kz
                 </span>
               </div>
 

@@ -9,7 +9,7 @@ const STEPS = [
     step: "01",
     icon: ShoppingCart,
     title: "Faça seu pedido",
-    desc: "Clique no botão de compra, preencha seus dados de forma rápida e confirme seu pagamento único de 3.000 Kz.",
+    desc: "Clique no botão de compra, preencha seus dados de forma rápida e confirme seu pagamento único de 2.500 Kz.",
   },
   {
     step: "02",

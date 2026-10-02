@@ -63,7 +63,7 @@ export default function FinalCtaSection() {
           <div className="mt-6 pt-5 border-t border-white/15 flex items-center justify-between">
             <span className="text-xs uppercase tracking-wider text-[#DEC8BD]">Valor promocional</span>
             <span className="text-2xl sm:text-3xl font-bold text-[#FFD382]">
-              3.000 Kz
+              2.500 Kz
             </span>
           </div>
         </div>

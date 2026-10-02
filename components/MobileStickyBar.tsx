@@ -39,7 +39,7 @@ export default function MobileStickyBar() {
                 Bolos Caseiros para Vender
               </span>
               <span className="text-sm font-bold text-white tracking-tight">
-                3.000 Kz
+                2.500 Kz
               </span>
             </div>
 
